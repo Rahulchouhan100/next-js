@@ -1,7 +1,7 @@
-import React from "react";
+const productDetails = ({ params }) => {
+  console.log(params, "this is server component");
 
-const productDetails = () => {
-  return <div>productDetails</div>;
+  return <div> this is productDetails</div>;
 };
 
 export default productDetails;

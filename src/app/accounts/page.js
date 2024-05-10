@@ -1,7 +1,8 @@
 import { redirect } from "next/navigation";
 
-export default function Account() {
+export default function Account({ searchParams }) {
+  // console.log(searchParams);
   const userProfile = null;
-  if (userProfile === null) redirect("/products");
+
   return <div>Account</div>;
 }
